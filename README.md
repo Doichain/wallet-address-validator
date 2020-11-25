@@ -9,7 +9,7 @@ Forked from [ryanralph/altcoin-address](https://github.com/ryanralph/altcoin-add
 
 ### NPM
 ```
-npm install wallet-address-validator
+npm install doichain-wallet-address-validator
 ```
 
 ### Browser

@@ -1,5 +1,5 @@
 {
-  "name": "wallet-address-validator",
+  "name": "doichain-wallet-address-validator",
   "description": "Wallet address validator for Bitcoin and other Altcoins.",
   "keywords": [
     "btc",
@@ -33,13 +33,13 @@
     "browser",
     "nodejs"
   ],
-  "version": "0.2.4",
-  "author": "Tomek Kolasa <tomek@kolasa.me>",
-  "homepage": "https://github.com/ognus/wallet-address-validator",
+  "version": "0.2.6",
+  "author": "David Reband david.reband@gmail.com",
+  "homepage": "https://github.com/Doichain/wallet-address-validator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ognus/wallet-address-validator.git"
+    "url": "https://github.com/Doichain/wallet-address-validator.git"
   },
   "main": "src/wallet_address_validator",
   "engines": {
