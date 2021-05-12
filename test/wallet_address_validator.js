@@ -243,6 +243,13 @@ describe('WAValidator.validate()', function () {
             valid('D9TDZTR9Z9Mx2NoDJnhqhnYhDLKRAmsL9n', 'digibyte');
             valid('DHRzA1YHA1kFWpz2apRckZJy6KZRyGq4EV', 'digibyte');
             valid('DJ53hTyLBdZp2wMi5BsCS3rtEL1ioYUkva', 'digibyte');
+
+            // bech32 addresses
+            valid('dgb1qx9uprplq8dyy4x0uwj49h808n37qyehq57d3jk', 'dgb');
+            valid('dgb1q68yx82tddenks3ch3a3l0wmmz2jar6zvnp0dq4', 'digibyte');
+            valid('dgb1qmaqn2gdxv0kfft4wpgq8vhg4zadlg7gvcd79qd', 'Digibyte');
+            
+            invalid('dgb1q6lg49v39jjshfkjsdfwer4j37lt0mkwu98jehs', 'digibyte');
         });
 
         it('should return true for correct Ethereum addresses', function () {

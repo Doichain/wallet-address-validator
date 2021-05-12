@@ -155,6 +155,7 @@ var CURRENCIES = [{
     name: 'digibyte',
     symbol: 'dgb',
     addressTypes: {prod: ['1e'], testnet: []},
+    segwitHrp: 'dgb',
     validator: BTCValidator
 },{
     name: 'ethereum',
